@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+
+    background: url("./Space.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+height: 90px;
+color: red;
+text-align: center;
+}
+
+nav{
+    background-color: rgb(116, 119, 118);
+position: sticky;
+top: 0%;
+border-radius: 14px;
+}
+
+.secClass{
+    display: flex;
+    width: 34%;
+
+}
+
+li{
+    list-style: none;
+    margin: auto;
+    padding: 4px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    font-size: 18;
+}
+
+.sec{
+    width: 99%;
+    margin: auto;
+border: 2px solid red;
+height: 800px;
+}
+
+.box1{
+    position: absolute;
+right: 4px;
+    border: 2px solid black;
+width: 24%;
+height: 60px;
+
+}
+
+.box2{
+    position: relative;
+    border: 2px solid black;
+width: 24%;
+height: 60px;
+top: 8px;
+}
+
+.box3{
+    position: sticky;
+    border: 2px solid black;
+width: 24%;
+height: 60px;
+top: 100px;
+}
+
+.box4{
+    position: fixed;
+    border: 2px solid black;
+width: 24%;
+height: 60px;
+bottom: 2px;
+right: 4px;
+}
